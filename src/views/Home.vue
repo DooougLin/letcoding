@@ -8,8 +8,8 @@
                     <img src="~@/assets/public/logo-top.png" height="48px">
                 </a>
                 <div class="search-box">
-                    <div class="search-btn">搜索</div>
-                    <div class="search-input">dsada</div>
+                    <div class="hoem-search-btn">搜索</div>
+                    <div class="hoem-search-input">dsada</div>
                 </div>
             </div>
         </div>
@@ -244,14 +244,14 @@ export default {
     padding-top: 28px;
 }
 
-.search-input {
+.hoem-search-input {
     padding: 5px;
     width: 439px;
     height: 20px;
     border: 3px solid red;
 }
 
-.search-btn {
+.hoem-search-btn {
     padding-right: 3px;
     width: 90px;
     height: 36px;
