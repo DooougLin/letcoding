@@ -30,7 +30,7 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
 #footer {
     border-top: 1px solid #d1d7dc;
 }
