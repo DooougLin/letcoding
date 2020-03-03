@@ -42,23 +42,24 @@ export default {
     height: 160px;
     border-top: 1px solid #ededed;
     padding-top: 22px;
-}
 
-.footer-nav dl {
-    padding-left: 52px;
-}
-.footer-nav dt {
-    height: 30px;
-    line-height: 30px;
-    color: rgb(100, 100, 100);
-    font-size: 16px;
-    font-weight: bold;
-}
+    dl {
+        padding-left: 52px;
+    }
 
-.footer-nav dd {
-    height: 20px;
-    line-height: 20px;
-    color: rgb(139, 139, 139);
+    dt {
+        height: 30px;
+        line-height: 30px;
+        color: rgb(100, 100, 100);
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    dd {
+        height: 20px;
+        line-height: 20px;
+        color: rgb(139, 139, 139);
+    }
 }
 
 .footer {

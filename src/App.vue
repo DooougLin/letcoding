@@ -4,8 +4,8 @@
     </div>
 </template>
 
-<style>
-@import url("~@/assets/public.css");
+<style lang="scss">
+@import url("~@/assets/public.scss");
 #app {
     width: 100%;
     font-size: 12px;

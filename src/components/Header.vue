@@ -19,19 +19,19 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
 .header {
     height: 26px;
     line-height: 26px;
     border-bottom: 1px solid rgb(229, 229, 229);
+
+    & > div > a {
+        float: right;
+        margin-left: 20px;
+    }
 }
 
 .top-left a {
-    margin-left: 20px;
-}
-
-.header > div > a {
-    float: right;
     margin-left: 20px;
 }
 </style>

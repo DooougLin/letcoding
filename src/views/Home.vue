@@ -224,33 +224,28 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
 @import "../../node_modules/swiper/css/swiper.min.css";
 /* 搜索 */
 .search-container {
     height: 92px;
+    img {
+        padding-top: 22px;
+    }
+    div {
+        float: right;
+    }
 }
-
-.search-container img {
-    padding-top: 22px;
-}
-
-.search-container div {
-    float: right;
-}
-
 .search-box {
     height: 30px;
     padding-top: 28px;
 }
-
 .hoem-search-input {
     padding: 5px;
     width: 439px;
     height: 20px;
     border: 3px solid red;
 }
-
 .hoem-search-btn {
     padding-right: 3px;
     width: 90px;
@@ -264,25 +259,27 @@ export default {
 /* 导航 */
 .nav {
     height: 30px;
-}
-.nav div {
-    float: left;
-    margin-right: 40px;
-    height: 30px;
-    line-height: 30px;
-    text-align: center;
-    font-weight: bold;
-}
-.nav div:first-child {
-    margin-right: 22px;
-    width: 270px;
-    background: #dd2727;
-    color: white;
-    font-size: 13px;
+
+    div {
+        float: left;
+        margin-right: 40px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    div:first-child {
+        margin-right: 22px;
+        width: 270px;
+        background: #dd2727;
+        color: white;
+        font-size: 13px;
+    }
 }
 </style>
 
-<style>
+<style lang="scss">
 .home main {
     height: 590px;
 }
@@ -292,47 +289,49 @@ export default {
     background: rgb(44, 44, 44);
     color: white;
     font-size: 14px;
-}
-.vertical-nav-title div {
-    height: 60px;
-    line-height: 60px;
-    padding: 0 7px;
-}
-.vertical-nav-title div img {
-    float: left;
-    margin-right: 4px;
-    padding: 22px 0;
+    div {
+        height: 60px;
+        line-height: 60px;
+        padding: 0 7px;
+        img {
+            float: left;
+            margin-right: 4px;
+            padding: 22px 0;
+        }
+    }
 }
 .vertical-nav {
     float: left;
     width: 206px;
     height: 480px;
-}
-.vertical-nav div {
-    height: 59px;
-    padding-left: 20px;
-    border-bottom: 1px solid #e0e0e0;
-}
-.vertical-nav a {
-    display: inline-block;
-    margin-top: 12px;
-    margin-right: 16px;
-    line-height: 12px;
-    color: #666;
-}
-.vertical-nav a:hover {
-    color: #dd2727;
+    div {
+        height: 59px;
+        padding-left: 20px;
+        border-bottom: 1px solid #e0e0e0;
+    }
+    a {
+        display: inline-block;
+        margin: {
+            top: 12px;
+            right: 16px;
+        }
+        line-height: 12px;
+        color: #666;
+        &:hover {
+            color: #dd2727;
+        }
+    }
 }
 </style>
 
-<style>
+<style lang="scss">
 .home-swiper-wrap {
     float: left;
     width: 720px !important;
     height: 480px;
-}
-.home-swiper-wrap img {
-    display: block;
+    img {
+        display: block;
+    }
 }
 .bullet {
     display: inline-block;
@@ -348,9 +347,8 @@ export default {
 .bullet-active {
     background: #dd2727;
 }
-.home-footer-banner{
+.home-footer-banner {
     position: relative;
     top: 20px;
-    /* margin-top: 53px; */
 }
 </style>

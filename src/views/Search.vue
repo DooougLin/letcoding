@@ -47,13 +47,14 @@ export default {
     }
 };
 </script>
-<style>
+
+<style lang="scss">
 .search-warp {
     height: 90px;
-}
-.search-warp img {
-    position: relative;
-    top: 21px;
+    img {
+        position: relative;
+        top: 21px;
+    }
 }
 .search-input {
     float: right;
@@ -79,9 +80,9 @@ export default {
     text-align: center;
     line-height: 38px;
     font-size: 16px;
-}
-.search-btn:hover {
-    cursor: pointer;
+    &:hover {
+        cursor: pointer;
+    }
 }
 .filter {
     /* padding: 0 10px; */
@@ -95,14 +96,14 @@ export default {
     float: left;
     padding: 0 10px;
     /* box-shadow: rgb(170, 170, 170) 1px 1px 6px 0px; */
-}
-.filter-price span {
-    margin-right: 10px;
-}
-.filter-price input {
-    width: 42px;
-    padding: 1px;
-    padding-left: 3px;
+    span {
+        margin-right: 10px;
+    }
+    input {
+        width: 42px;
+        padding: 1px;
+        padding-left: 3px;
+    }
 }
 .filter-price-btn {
     display: none;
@@ -115,7 +116,7 @@ export default {
     background: #c40000;
     color: white;
 }
-.others{
+.others {
     float: right;
 }
 </style>
