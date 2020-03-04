@@ -24,16 +24,48 @@
                     <option>C</option>
                 </select>
                 <div class="others">
-                    <input type="checkbox" value="Jack">
-                    <label for="包邮">包邮</label>
-                    <input type="checkbox" value="John">
-                    <label for="正品保障">正品保障</label>
+                    <a href="">
+                        <input type="checkbox" value="Jack">
+                        包邮
+                    </a>
+                    <a href="">
+                        <input type="checkbox" value="John">
+                        正品保障
+                    </a>
+                    <a href="">
+                        <input type="checkbox" value="John">
+                        7天退换
+                    </a>
+                    <a href="">
+                        <input type="checkbox" value="John">
+                        消费者保障
+                    </a>
                 </div>
             </div>
         </header>
-        <!-- <main>
-
-        </main> -->
+        <main class="default-container">
+            <div class="item">
+                <span>
+                    <img style="item-img" src="~@/assets/home/item-demo.webp" alt="">
+                </span>
+                <div class="info">
+                    <p>
+                        <span class="price">¥
+                            <strong>12.00</strong>
+                        </span>
+                        <span class="postal-icon">包邮</span>
+                    </p>
+                    <p class="item-name">vivoiqoo3手机壳网红个性磨砂硬壳简约情侣ssss</p>
+                    <p class="store-info">简欧数码专营店
+                        <span class="pay-number">0人付款</span>
+                    </p>
+                    <p class="more-info">
+                        <img class="bilibili" height="16px" src="~@/assets/public/woaibilibili.png" alt="">
+                        <span class="inline-block">如实描述: 4.9</span>
+                    </p>
+                </div>
+            </div>
+        </main>
         <Footer></Footer>
     </div>
 </template>
@@ -118,5 +150,101 @@ export default {
 }
 .others {
     float: right;
+    a {
+        margin-left: 18px;
+        margin-right: 1px;
+    }
+    & a:last-child {
+        margin-right: 11px;
+    }
+}
+#search main {
+    margin-bottom: 30px;
+}
+.item {
+    width: 250px;
+    height: 366px;
+    border: 1px solid #eee;
+    &:hover {
+        border-color: #c40000;
+    }
+    p:first-child {
+        margin-top: 4px;
+        height: 16px;
+    }
+    & > span {
+        display: table-cell;
+        width: 250px;
+        height: 250px;
+        vertical-align: middle;
+        text-align: center;
+    }
+    .item-img {
+        height: 220px;
+        width: 220px;
+    }
+    .info {
+        padding: 10px;
+        width: 230px;
+        height: 96px;
+        .price {
+            margin-top: 4px;
+            height: 16px;
+            line-height: 16px;
+            font-size: 16px;
+            font-weight: 700;
+            color: #c40000;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+        .postal-icon {
+            margin-left: 4px;
+            width: 27px;
+            height: 14px;
+            line-height: 14px;
+            background: #c40000;
+            color: white;
+        }
+        .item-name {
+            margin-top: 5px;
+            height: 20px;
+            line-height: 20px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+        .store-info {
+            margin-top: 5px;
+            color: #888;
+            height: 18px;
+            line-height: 18px;
+            text-decoration: underline;
+            .pay-number {
+                float: right;
+            }
+        }
+        .more-info {
+            margin-top: 5px;
+            width: inherit;
+            height: 23px;
+            line-height: 23px;
+            .bilibili {
+                margin-top: 7px;
+            }
+            span{
+                float: right;
+                margin-top: 5px;
+                padding-left: 3px;
+                width: 100px;
+                height: 16px;
+                line-height: 16px;
+                border: 1px solid #ddd;
+            }
+        }
+    }
 }
 </style>
