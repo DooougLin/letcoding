@@ -1,18 +1,7 @@
 <template>
     <div class="home">
         <Header></Header>
-        <!-- 搜索行 -->
-        <div class="default-container">
-            <div class="search-container">
-                <a href="">
-                    <img src="~@/assets/public/logo-top.png" height="48px">
-                </a>
-                <div class="search-box">
-                    <div class="hoem-search-btn">搜索</div>
-                    <div class="hoem-search-input">dsada</div>
-                </div>
-            </div>
-        </div>
+        <SearchBar></SearchBar>
         <!-- 导航条 -->
         <nav class="nav default-container">
             <div>商品服务分类</div>
@@ -174,11 +163,12 @@
 <script>
 import Header from '@/components/Header.vue';
 import Footer from '@/components/Footer.vue';
+import SearchBar from '@/components/SearchBar.vue';
 import Swiper from 'swiper';
 
 export default {
     components: {
-        Header, Footer
+        Header, Footer, SearchBar
     },
     data: () => ({
 
@@ -221,36 +211,6 @@ export default {
 
 <style lang="scss">
 @import "../../node_modules/swiper/css/swiper.min.css";
-/* 搜索 */
-.search-container {
-    height: 92px;
-    img {
-        padding-top: 22px;
-    }
-    div {
-        float: right;
-    }
-}
-.search-box {
-    height: 30px;
-    padding-top: 28px;
-}
-.hoem-search-input {
-    padding: 5px;
-    width: 439px;
-    height: 20px;
-    border: 3px solid red;
-}
-.hoem-search-btn {
-    padding-right: 3px;
-    width: 90px;
-    height: 36px;
-    background: red;
-    color: white;
-    text-align: center;
-    line-height: 36px;
-    font-size: 16px;
-}
 /* 导航 */
 .nav {
     height: 30px;
