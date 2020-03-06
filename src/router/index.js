@@ -3,6 +3,7 @@ import VueRouter from 'vue-router';
 import Home from '../views/Home.vue';
 import Search from '../views/Search.vue';
 import Item from '../views/Item.vue';
+import MagnifyingGlass from '../components/MagnifyingGlass.vue';
 
 Vue.use(VueRouter);
 
@@ -21,6 +22,11 @@ const routes = [
         path: '/item',
         name: 'Item',
         component: Item
+    },
+    {
+        path: '/demo',
+        name: 'MagnifyingGlass',
+        component: MagnifyingGlass
     }
 ];
 

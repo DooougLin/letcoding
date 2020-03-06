@@ -5,7 +5,8 @@
         <div class="banner-bar">网站仅供个人学习 支付请使用沙盒支付宝 <span>阿里云以外商品不涉及真实交易!</span>👀</div>
         <main class="default-container">
             <div class="item-left">
-                <img width="418px" height="418px" src="~@/assets/item/item-image/item-image-1.jpg" alt="">
+                <MagnifyingGlass></MagnifyingGlass>
+                <!-- <img width="418px" height="418px" src="~@/assets/item/item-image/item-image-1.jpg" alt=""> -->
                 <div class="thumb-list">
                     <img src="~@/assets/item/item-image/item-image-small-1.jpg">
                     <img src="~@/assets/item/item-image/item-image-small-2.jpg">
@@ -229,11 +230,12 @@
 import Header from '@/components/Header.vue';
 import Footer from '@/components/Footer.vue';
 import SearchBar from '@/components/SearchBar.vue';
+import MagnifyingGlass from '@/components/MagnifyingGlass.vue';
 import Swiper from 'swiper';
 
 export default {
     components: {
-        Header, Footer, SearchBar
+        Header, Footer, SearchBar, MagnifyingGlass
     },
     data: () => ({
 
