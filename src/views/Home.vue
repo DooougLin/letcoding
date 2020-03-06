@@ -97,9 +97,6 @@
                     <div id="swiper1" class="swiper-container">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <img src="~@/assets/home/carousel/carousel-1.jpg" height="296px">
-                            </div>
-                            <div class="swiper-slide">
                                 <a href="https://www.baidu.com" target="_blank"><img
                                         src="~@/assets/home/carousel/carousel-2.jpg" height="296px"></a>
                             </div>
@@ -114,6 +111,12 @@
                             </div>
                             <div class="swiper-slide">
                                 <img src="~@/assets/home/carousel/carousel-6.jpg" height="296px">
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="https://www.aliyun.com/minisite/goods?userCode=zeb6kmng&share_source=copy_link"
+                                    target="_blank">
+                                    <img src="~@/assets/home/carousel/aliyun-720-296.jpg" height="296px">
+                                </a>
                             </div>
                         </div>
                         <div id="swiper-pagination1" class="swiper-pagination"></div>
@@ -151,7 +154,10 @@
                 <img class="block f-l" width="200px" height="480px" src="~@/assets/home/right-banner.jpg">
             </div>
             <div class="default-container">
-                <img class="home-footer-banner block" src="~@/assets/home/footer-banner.jpg" alt="">
+                <a href="https://www.aliyun.com/minisite/goods?userCode=zeb6kmng&share_source=copy_link"
+                    target="_blank">
+                    <img class="home-footer-banner block" src="~@/assets/home/aliyun1190x90.jpg" alt="">
+                </a>
             </div>
         </main>
 

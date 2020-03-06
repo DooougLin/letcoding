@@ -2,7 +2,7 @@
     <div id="item">
         <Header></Header>
         <SearchBar></SearchBar>
-        <div class="banner-bar">网站仅供个人学习 所有交易均使用沙盒支付宝完成 <span>不涉及真实交易!</span>👀</div>
+        <div class="banner-bar">网站仅供个人学习 支付请使用沙盒支付宝 <span>阿里云以外商品不涉及真实交易!</span>👀</div>
         <main class="default-container">
             <div class="item-left">
                 <img width="418px" height="418px" src="~@/assets/item/item-image/item-image-1.jpg" alt="">
@@ -47,8 +47,14 @@
                 <div class="customize-panel">
                     <div class="customize-detail color-type">
                         <span>颜色分类</span>
-                        <img src="~@/assets/item/item-image/item-image-xs-1.jpg" alt="">
-                        <img src="~@/assets/item/item-image/item-image-xs-2.jpg" alt="">
+                        <ul>
+                            <li class="color-type-selected">
+                                <img src="~@/assets/item/item-image/item-image-xs-1.jpg">
+                                <i></i>
+                            </li>
+                            <li><img src="~@/assets/item/item-image/item-image-xs-2.jpg">
+                            </li>
+                        </ul>
                     </div>
                     <div class="customize-detail number-type">
                         <span>数量</span>
@@ -107,12 +113,115 @@
                     </div>
                 </div>
                 <div class="swiper-trigger">
-                    <div></div>
-                    <div></div>
+                    <div class="swiper-prev"></div>
+                    <div class="swiper-next"></div>
                 </div>
             </div>
         </main>
-        <Footer></Footer>
+        <div class="default-container aliyun-banner">
+            <a href="https://www.aliyun.com/minisite/goods?userCode=zeb6kmng&share_source=copy_link" target="_blank">
+                <img src="~@/assets/item/aliyun.jpg" width="990px">
+            </a>
+        </div>
+        <div class="default-container">
+            <div class="detail-left">
+                <div class="store-info-panel">
+                    <h3>Letcoding店铺 <i></i></h3>
+                </div>
+                <div class="store-search-panel">
+                    <p>本店搜索</p>
+                    <dl>
+                        <dt>关键字</dt>
+                        <dd><input class="store-search-input-keyboard" type="text"></dd>
+                    </dl>
+                    <dl>
+                        <dt>价格</dt>
+                        <dd>
+                            <input class="store-search-input-price" type="text">
+                            <span>-</span>
+                            <input class="store-search-input-price" type="text">
+                        </dd>
+                    </dl>
+                    <div class="store-search-btn">
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="evaluation-panel">
+                <div class="evaluation-panel-tab">
+                    <ul>
+                        <li class="evaluation-selected"><a href="">商品详情</a></li>
+                        <li><a href="">累计评价<span> 77</span></a></li>
+                    </ul>
+                </div>
+                <div class="item-detail">
+                    <div class="item-name">品牌名称:<span>Spigen</span></div>
+                    <div>产品参数:</div>
+                    <ul>
+                        <li>品牌: Spigen</li>
+                        <li>型号: 苹果iphone 11手机壳</li>
+                        <li>保护套质地: 硅胶</li>
+                        <li>风格: 简约</li>
+                        <li>适用手机机型: Apple/苹果</li>
+                        <li>型号: iphone11</li>
+                        <li>颜色分类: 【全透明】iphone 11 pro手机壳 【全透明】iphone 11手机壳 【全透明】iphone 11 pro max手机壳</li>
+                        <li>生产企业: Spigen Korea Co., Ltd.</li>
+                        <li>款式: 保护壳</li>
+                    </ul>
+                    <div class="clear"></div>
+                </div>
+                <p class="item-detail-image">
+                    <img src="~@/assets/item/item-detail-image/1.jpg">
+                    <img src="~@/assets/item/item-detail-image/2.jpg">
+                    <img src="~@/assets/item/item-detail-image/3.jpg">
+                </p>
+                <div class="item-detail-footer">
+                    <dl>
+                        <dt>安全提示：</dt>
+                        <dd>本站仅供个人学习使用，支付方式仅有沙盒支付宝，阿里云是外链广告，请勿随意接收其他来源不明的文件，请勿随意点击任何来源不明的链接。涉及资金往来的事项请务必仔细核对资金往来信息。</dd>
+                    </dl>
+                    <p>
+                        <span>推荐安全软件:</span>
+                        <a href="https://qd.alibaba.com/v/qdpc.htm" target="_blank">
+                            <img src="~@/assets/item/qiandun.png">
+                            <span>钱盾</span>
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="item-right">
+                <s class="item-right-dotted"></s>
+                <span>猜你喜欢</span>
+                <div class="right-wrapper">
+                    <div>
+                        <img src="~@/assets/item/item-carousel/1.jpg" height="140px">
+                        <p>¥78.00</p>
+                    </div>
+                    <div>
+                        <img src="~@/assets/item/item-carousel/2.jpg" height="140px">
+                        <p>¥77.00</p>
+                    </div>
+                    <div>
+                        <img src="~@/assets/item/item-carousel/3.jpg" height="140px">
+                        <p>¥77.00</p>
+                    </div>
+                    <div>
+                        <img src="~@/assets/item/item-carousel/4.jpg" height="140px">
+                        <p>¥77.00</p>
+                    </div>
+                    <div>
+                        <img src="~@/assets/item/item-carousel/5.jpg" height="140px">
+                        <p>¥77.00</p>
+                    </div>
+                    <div>
+                        <img src="~@/assets/item/item-carousel/6.jpg" height="140px">
+                        <p>¥77.00</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <Footer class="clear"></Footer>
     </div>
 </template>
 
@@ -137,7 +246,12 @@ export default {
                     // observer: true,
                     // observeParents: true
                     slidesPerView: 3,
-                    slidesPerGroup: 3
+                    slidesPerGroup: 3,
+                    loop: true,
+                    navigation: {
+                        nextEl: '.swiper-next',
+                        prevEl: '.swiper-prev'
+                    }
                 });
             }, 300);
         }
@@ -184,6 +298,9 @@ export default {
             border-right: 1px solid #f2f2f2;
             min-height: 604px;
         }
+    }
+    .aliyun-banner {
+        margin-bottom: 5px;
     }
 }
 .thumb-list {
@@ -341,15 +458,28 @@ export default {
             }
         }
         .color-type {
-            img {
+            li {
                 float: left;
+                position: relative;
                 margin: 0 4px 4px 0;
-                padding: 1px;
                 border: 1px solid #b8b7bd;
-                &:hover {
-                    padding: 0;
-                    border: 2px solid #ff0036;
-                }
+                padding: 1px;
+                width: 39px;
+                height: 39px;
+            }
+            .color-type-selected {
+                width: 40px;
+                height: 40px;
+                padding: 0;
+                border: 2px solid #ff0036;
+            }
+            i {
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                width: 12px;
+                height: 12px;
+                background: url("~@/assets/item/choose.png") no-repeat;
             }
         }
         .number-type {
@@ -440,7 +570,7 @@ export default {
     }
     span {
         position: relative;
-        top: -6px;
+        top: -8.5px;
         left: 34px;
         padding: 0 10px;
         width: 72px;
@@ -448,45 +578,279 @@ export default {
         background: white;
         z-index: 10;
     }
+    div {
+        position: relative;
+    }
     #swiper3 {
         margin-top: 5px;
         width: inherit;
         height: inherit;
-        img {
-            display: block;
-        }
-        p {
-            position: absolute;
-            left: 0;
-            bottom: 20px;
-            width: 140px;
-            height: 20px;
-            background: rgba(255, 255, 255, 0.8);
-            text-align: center;
-        }
     }
-    .swiper-trigger{
-        // padding: 0 42px;
-        margin-left: 43px;
+    .right-wrapper div {
+        padding-bottom: 20px;
+    }
+    img {
+        display: block;
+    }
+    p {
+        position: absolute;
+        left: 0;
+        bottom: 20px;
         width: 140px;
+        height: 20px;
+        background: rgba(255, 255, 255, 0.8);
+        text-align: center;
+    }
+    .swiper-trigger {
+        margin-left: 24.5px;
+        width: 91px;
         height: 27px;
         line-height: 27px;
-        div{
-            float: left;
+        div {
+            outline: none;
         }
-        div:first-child{
+        div:first-child {
+            float: left;
             width: 27px;
             height: 27px;
-            background: url('~@/assets/item/sprite.png') no-repeat;
+            background: url("~@/assets/item/sprite.png") no-repeat;
             background-position: 0 0;
             cursor: pointer;
         }
-        div:last-child{
+        div:last-child {
+            float: right;
             width: 27px;
             height: 27px;
-            background: url('~@/assets/item/sprite.png') no-repeat;
+            background: url("~@/assets/item/sprite.png") no-repeat;
             background-position: 0 -30px;
             cursor: pointer;
+        }
+    }
+}
+.detail-left {
+    float: left;
+    width: 190px;
+    .store-info-panel {
+        margin-bottom: 10px;
+        height: 174px;
+        border: 1px solid #e5e5e5;
+        h3 {
+            padding-left: 15px;
+            width: 173px;
+            height: 48px;
+            line-height: 48px;
+            background: rgb(250, 250, 250);
+            border-bottom: 1px solid #e5e5e5;
+            font-weight: 700;
+            i {
+                position: relative;
+                top: 2px;
+                display: inline-block;
+                width: 20px;
+                height: 20px;
+                background: url("~@/assets/public/aliwangwang.gif") no-repeat;
+                background-position: -80px 0;
+            }
+        }
+    }
+    .store-search-panel {
+        margin-bottom: 10px;
+        border: 1px solid #e5e5e5;
+        border-top: none;
+        p {
+            padding: 0 10px;
+            height: 25px;
+            line-height: 25px;
+            background: #000;
+            color: white;
+            font-size: 14px;
+            font-weight: 700;
+        }
+        dl {
+            margin-top: 10px;
+            color: #666;
+        }
+        dt {
+            float: left;
+            margin-right: 4px;
+            width: 50px;
+            height: 20px;
+            line-height: 20px;
+            text-align: right;
+        }
+        dd {
+            display: inline-block;
+            input,
+            span {
+                float: left;
+                outline: none;
+            }
+            .store-search-input-keyboard {
+                border: 1px solid #a7a6aa;
+                border-radius: 2px;
+                padding: 0 2px;
+                width: 110px;
+                height: 20px;
+            }
+            .store-search-input-price {
+                margin-right: 4px;
+                border: 1px solid #a7a6aa;
+                border-radius: 2px;
+                padding: 0 2px 0 12px;
+                width: 35px;
+                height: 20px;
+                background: url("~@/assets/public/search-sprite.png") no-repeat;
+                background-position: -107px -94px;
+            }
+            span {
+                display: inline-block;
+                padding-right: 4px;
+            }
+        }
+        .store-search-btn {
+            margin: 10px 0 20px 53px;
+            border-radius: 2px;
+            width: 57px;
+            height: 24px;
+            background: #000;
+            div {
+                display: inline-block;
+                padding: 0 10px;
+                width: 37px;
+                height: 24px;
+                background: url("~@/assets/public/search-sprite.png") no-repeat;
+                background-position: 0px -67px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+.evaluation-panel {
+    float: left;
+    margin-left: 10px;
+    width: 790px;
+    .evaluation-panel-tab {
+        height: 48px;
+        line-height: 48px;
+        border: 1px solid #dfdfdf;
+        border-left: none;
+        ul {
+            li:first-child {
+                border-left: 1px solid #dfdfdf;
+            }
+            li:last-child a {
+                border-right: 1px dotted #cfbfb1;
+            }
+            li {
+                float: left;
+                position: relative;
+                padding: 2px 1px 0 1px;
+                height: 47px;
+                cursor: pointer;
+                a {
+                    padding: 0 20px;
+                    width: 48px;
+                }
+            }
+            .evaluation-selected {
+                padding: 0;
+                color: #ff0036;
+                border-top: 2px solid #ff0036;
+                border-left: 1px solid #cfbfb1 !important;
+                border-right: 1px solid #cfbfb1;
+                font-weight: bolder;
+                a {
+                    border-right: none !important;
+                }
+                &:after {
+                    content: "";
+                    width: 0;
+                    height: 0;
+                    position: absolute;
+                    top: 0;
+                    left: 39px;
+                    border: 5px solid;
+                    border-color: #ff0036 transparent transparent transparent;
+                }
+            }
+        }
+    }
+    .item-detail {
+        margin-bottom: 10px;
+        border: 1px solid #dfdfdf;
+        border-top: none;
+        .item-name {
+            padding: 8px 20px 10px 20px;
+            width: 95.73px;
+            height: 40px;
+            line-height: 40px;
+            span {
+                float: right;
+            }
+        }
+        div:nth-child(2) {
+            padding: 5px 20px;
+            color: #999;
+            font-weight: 700;
+        }
+        ul {
+            padding: 0 20px 18px 20px;
+            height: 48px;
+            li {
+                float: left;
+                margin: 10px 15px 0 0;
+                width: 220px;
+                height: 18px;
+
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+        }
+        div:last-child {
+            height: 20px;
+        }
+    }
+}
+.item-detail-image {
+    margin: 25.68px 0;
+}
+.item-detail-footer {
+    margin-bottom: 15px;
+    border: 1px solid #ffcc7f;
+    padding: 10px;
+    background: #ffffe5;
+    height: 72px;
+    dt,
+    dd {
+        float: left;
+    }
+    dt {
+        width: 68px;
+        height: 24px;
+        line-height: 24px;
+        font-weight: 700;
+    }
+    dd {
+        width: 700px;
+        height: 48px;
+        line-height: 24px;
+    }
+    p {
+        padding-left: 68px;
+        height: 24px;
+        line-height: 24px;
+        span {
+            float: left;
+        }
+        a {
+            img {
+                float: left;
+                margin: 4px 3px 4px 5px;
+            }
+            span {
+                color: #999;
+            }
         }
     }
 }
