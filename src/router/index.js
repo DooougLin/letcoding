@@ -3,7 +3,8 @@ import VueRouter from 'vue-router';
 import Home from '../views/Home.vue';
 import Search from '../views/Search.vue';
 import Item from '../views/Item.vue';
-import MagnifyingGlass from '../components/MagnifyingGlass.vue';
+import Login from '../views/Login.vue';
+import AdminCenter from '../views/AdminCenter.vue';
 
 Vue.use(VueRouter);
 
@@ -24,9 +25,14 @@ const routes = [
         component: Item
     },
     {
-        path: '/demo',
-        name: 'MagnifyingGlass',
-        component: MagnifyingGlass
+        path: '/login',
+        name: 'Login',
+        component: Login
+    },
+    {
+        path: '/admin',
+        name: 'AdminCenter',
+        component: AdminCenter
     }
 ];
 

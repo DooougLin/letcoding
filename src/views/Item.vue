@@ -6,7 +6,6 @@
         <main class="default-container">
             <div class="item-left">
                 <MagnifyingGlass></MagnifyingGlass>
-                <!-- <img width="418px" height="418px" src="~@/assets/item/item-image/item-image-1.jpg" alt=""> -->
                 <div class="thumb-list">
                     <img src="~@/assets/item/item-image/item-image-small-1.jpg">
                     <img src="~@/assets/item/item-image/item-image-small-2.jpg">
@@ -172,7 +171,7 @@
                     <div class="clear"></div>
                 </div>
                 <p class="item-detail-image">
-                    <img src="~@/assets/item/item-detail-image/1.jpg">
+                    <img v-lazy="'@/assets/item/item-detail-image/1.jpg'">
                     <img src="~@/assets/item/item-detail-image/2.jpg">
                     <img src="~@/assets/item/item-detail-image/3.jpg">
                 </p>
@@ -816,6 +815,7 @@ export default {
 }
 .item-detail-image {
     margin: 25.68px 0;
+    text-align: center;
 }
 .item-detail-footer {
     margin-bottom: 15px;
