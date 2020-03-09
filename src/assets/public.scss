@@ -13,6 +13,10 @@ a {
   color: inherit;
 }
 
+table {
+  border-collapse: collapse;
+}
+
 div:hover {
   cursor: default;
 }
@@ -36,8 +40,8 @@ div:hover {
   display: inline-block;
 }
 
-.clear{
-    clear: both;
+.clear {
+  clear: both;
 }
 
 /* 定位 */

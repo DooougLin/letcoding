@@ -1,0 +1,30 @@
+{
+  "id": 7974907844777846524,
+  "date": "2020-01-05",
+  "storeName": "LetCoding店铺",
+  "items": [
+    {
+      "id": 12313,
+      "name": "雀巢咖啡",
+      "img": "",
+      "oldPrice": "23.00",
+      "price": "15.00",
+      "type": "口味:(送红杯+勺)奶香7条*3盒",
+      "count": 1,
+      "rights": [1, 2, 3],
+      "totalPrice": "27.7",
+      "freight": "0.00"
+    },
+    {
+      "id": 123133,
+      "name": "雀巢咖啡杯",
+      "oldPrice": "23.00",
+      "img": "",
+      "price": "15.00",
+      "type": "",
+      "count": 1,
+      "rights": [1, 2, 3]
+    }
+  ],
+  "status": 1
+}

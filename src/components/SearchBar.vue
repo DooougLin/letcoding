@@ -5,8 +5,8 @@
                 <img src="~@/assets/public/logo-top.png" height="48px">
             </a>
             <div class="search-box">
-                <div class="hoem-search-btn">搜索</div>
-                <div class="hoem-search-input">dsada</div>
+                <div class="home-search-btn">搜索</div>
+                <div class="home-search-input">dsada</div>
             </div>
         </div>
     </div>
@@ -32,13 +32,13 @@ export default {
     height: 30px;
     padding-top: 28px;
 }
-.hoem-search-input {
+.home-search-input {
     padding: 5px;
     width: 439px;
     height: 20px;
     border: 3px solid red;
 }
-.hoem-search-btn {
+.home-search-btn {
     padding-right: 3px;
     width: 90px;
     height: 36px;

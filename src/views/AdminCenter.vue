@@ -14,10 +14,13 @@
                     <li>我的订单</li>
                     <li>我的购物车</li>
                     <li>我的地址</li>
+                    <li>我的收藏</li>
+                    <li>我的积分</li>
                     <li>个人资料</li>
                 </ul>
             </nav>
-            <OrderForm></OrderForm>
+            <OrderForm v-show="demo"></OrderForm>
+            <Addr></Addr>
         </div>
         <Footer></Footer>
     </div>
@@ -26,14 +29,15 @@
 import Header from '@/components/Header.vue';
 import Footer from '@/components/Footer.vue';
 import OrderForm from '@/components/admin-center/OrderForm.vue';
+import Addr from '@/components/admin-center/Addr.vue';
 // import SearchBar from '@/components/SearchBar.vue';
 
 export default {
     components: {
-        Header, Footer, OrderForm
+        Header, Footer, OrderForm, Addr
     },
     data: () => ({
-
+        demo: false
     })
 };
 </script>
@@ -53,7 +57,7 @@ export default {
     .main-box {
         margin-top: 25px;
         // border-top: 1px solid #d1d7dc;
-        height: 200px;
+        height: 500px;
     }
     nav {
         float: left;
