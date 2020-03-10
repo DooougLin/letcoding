@@ -19,7 +19,7 @@
                     <li>个人资料</li>
                 </ul>
             </nav>
-            <OrderForm v-show="demo"></OrderForm>
+            <order-form v-show="demo"></order-form>
             <Addr></Addr>
         </div>
         <Footer></Footer>

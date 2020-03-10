@@ -1,11 +1,11 @@
 <template>
     <div id="item">
         <Header></Header>
-        <SearchBar></SearchBar>
+        <search-bar></search-bar>
         <div class="banner-bar">网站仅供个人学习 支付请使用沙盒支付宝 <span>阿里云以外商品不涉及真实交易!</span>👀</div>
         <main class="default-container">
             <div class="item-left">
-                <MagnifyingGlass></MagnifyingGlass>
+                <magnifying-glass></magnifying-glass>
                 <div class="thumb-list">
                     <img src="~@/assets/item/item-image/item-image-small-1.jpg">
                     <img src="~@/assets/item/item-image/item-image-small-2.jpg">
