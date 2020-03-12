@@ -1,0 +1,30 @@
+/* 搜索 */
+.search-container {
+    height: 92px;
+    img {
+        padding-top: 22px;
+    }
+    div {
+        float: right;
+    }
+}
+.search-box {
+    height: 30px;
+    padding-top: 28px;
+}
+.home-search-input {
+    padding: 5px;
+    width: 439px;
+    height: 20px;
+    border: 3px solid red;
+}
+.home-search-btn {
+    padding-right: 3px;
+    width: 90px;
+    height: 36px;
+    background: red;
+    color: white;
+    text-align: center;
+    line-height: 36px;
+    font-size: 16px;
+}

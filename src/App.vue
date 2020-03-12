@@ -5,7 +5,7 @@
 </template>
 
 <style lang="scss">
-@import url("~@/assets/public.scss");
+@import url("~@/assets/scss/public.scss");
 #app {
     width: 100%;
     font-size: 12px;

@@ -1,0 +1,114 @@
+/* 标签 */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+div:hover {
+  cursor: default;
+}
+
+/* 预设 */
+.default-container {
+  margin: 0 auto;
+  width: 1190px;
+}
+
+/* 显示 */
+.block {
+  display: block;
+}
+
+.inline {
+  display: inline;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.clear {
+  clear: both;
+}
+
+/* 定位 */
+.f-l {
+  float: left;
+}
+
+.f-r {
+  float: right;
+}
+
+.mx-auto {
+  margin: 0 auto;
+}
+
+.center {
+  text-align: center;
+}
+
+/* 边距 */
+.ml-3 {
+  margin-left: 30px;
+}
+
+.mr-3 {
+  margin-right: 30px;
+}
+/* 背景色 */
+.black {
+  background: #000;
+}
+
+.white {
+  background: white;
+}
+
+.lighten-grey {
+  background: rgb(242, 242, 242);
+}
+
+/* 字体颜色 */
+.white--text {
+  color: white;
+}
+
+.grey--text {
+  color: #999;
+}
+
+.red--text {
+  color: red;
+}
+
+/* 字号 */
+.t-12 {
+  font-size: 12px;
+}
+
+.t-14 {
+  font-size: 14px;
+}
+
+.t-16 {
+  font-size: 16px;
+}
+
+/* 文本 */
+.fw-b {
+  font-weight: bold;
+}

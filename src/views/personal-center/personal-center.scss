@@ -1,0 +1,38 @@
+.bg-orange {
+    background: #ff4401;
+}
+.admin {
+    .top-bar {
+        padding: 12px 0;
+        height: 36px;
+        line-height: 36px;
+        color: white;
+        font-size: 36px;
+        font-weight: 700;
+    }
+    .main-box {
+        margin-top: 25px;
+        // border-top: 1px solid #d1d7dc;
+        height: 500px;
+    }
+    nav {
+        float: left;
+        width: 110px;
+        ul {
+            height: 28px;
+            line-height: 28px;
+            li {
+                cursor: pointer;
+            }
+            li:first-child {
+                margin: 5px 10px 1px 0;
+                font-size: 15px;
+                color: #f40;
+                cursor: default;
+            }
+            li:hover {
+                color: #f40;
+            }
+        }
+    }
+}

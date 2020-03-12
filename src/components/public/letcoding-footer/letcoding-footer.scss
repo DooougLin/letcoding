@@ -1,0 +1,43 @@
+#footer {
+  border-top: 1px solid #d1d7dc;
+}
+.footer-banner {
+  margin: 25px 0;
+}
+
+.footer-nav {
+  height: 160px;
+  border-top: 1px solid #ededed;
+  padding-top: 22px;
+
+  dl {
+    padding-left: 52px;
+  }
+
+  dt {
+    height: 30px;
+    line-height: 30px;
+    color: rgb(100, 100, 100);
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  dd {
+    height: 20px;
+    line-height: 20px;
+    color: rgb(139, 139, 139);
+  }
+}
+
+.footer {
+  height: 60px;
+  line-height: 20px;
+  text-align: center;
+  background: #000;
+  border-top: 2px solid red;
+  color: white;
+}
+.ali-QR img {
+  padding: 6px;
+  background: white;
+}

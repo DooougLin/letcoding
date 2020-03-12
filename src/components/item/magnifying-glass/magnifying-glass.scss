@@ -1,0 +1,33 @@
+.magnifying-glass {
+  position: relative;
+  width: 418px;
+  height: 418px;
+  margin: 20px;
+  margin-bottom: 0;
+  div:first-child {
+    position: relative;
+  }
+}
+.top-shadow {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: inherit;
+  height: inherit;
+  background-color: rgba(220, 220, 220, 0);
+  z-index: 999;
+}
+.shadow {
+  position: absolute;
+  background: url("~@/static/img/item/image-dot.png");
+}
+.large-img-container {
+  position: absolute;
+  top: 0;
+  left: 418px;
+  margin-left: 10px;
+  border: 1px solid #f2f2f2;
+  background: white;
+  overflow: hidden;
+  z-index: 999;
+}
